@@ -30,7 +30,9 @@ app.get('/health', (req, res) => {
 
 
 import workflowRouter from './routes/workflow.js';
+import integrationsRouter from './routes/integrations.js';
 app.use('/api/workflow', workflowRouter);
+app.use('/api/integrations', integrationsRouter);
 
 app.use((err, req, res, next) => {
   console.error('Error:', err);

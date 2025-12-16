@@ -1,5 +1,4436 @@
 {
-  "workflows": [],
-  "executions": [],
-  "cache": {}
+  "workflows": [
+    {
+      "id": "mj8lwc55apalzbnjakk",
+      "name": "Test workflow: Create a simple test workflow...",
+      "description": "Create a simple test workflow",
+      "prompt": "Create a simple test workflow",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the user's request"
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "response",
+            "tone": "helpful"
+          },
+          "description": "Generate helpful content"
+        },
+        {
+          "step": 3,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Deliver results"
+        }
+      ],
+      "estimated_time": 15,
+      "complexity": "low",
+      "created_at": "2025-12-16T13:16:24.569Z",
+      "updated_at": "2025-12-16T13:16:24.569Z"
+    },
+    {
+      "id": "mj8lymrxk9q4zagkplt",
+      "name": "Test workflow: Create a simple test workflow...",
+      "description": "Create a simple test workflow",
+      "prompt": "Create a simple test workflow",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the user's request"
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "response",
+            "tone": "helpful"
+          },
+          "description": "Generate helpful content"
+        },
+        {
+          "step": 3,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Deliver results"
+        }
+      ],
+      "estimated_time": 15,
+      "complexity": "low",
+      "created_at": "2025-12-16T13:18:11.661Z",
+      "updated_at": "2025-12-16T13:18:11.661Z"
+    },
+    {
+      "id": "mj8m3pjvx0zx7of75x",
+      "name": "Workflow for: create a schedule for me a not...",
+      "description": "create a schedule for me a note about AI",
+      "prompt": "create a schedule for me a note about AI",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the scheduling request"
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "schedule",
+            "tone": "professional"
+          },
+          "description": "Create schedule or note content"
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format": "structured"
+          },
+          "description": "Format the schedule properly"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Deliver the completed schedule"
+        }
+      ],
+      "estimated_time": 20,
+      "complexity": "medium",
+      "created_at": "2025-12-16T13:22:08.539Z",
+      "updated_at": "2025-12-16T13:22:08.539Z"
+    },
+    {
+      "id": "mj8o12pwwerqe8l2do",
+      "name": "Workflow for: Help me write an email...",
+      "description": "Help me write an email",
+      "prompt": "Help me write an email",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "detailed"
+          },
+          "description": "Understand the user's specific requirements for the email (topic, tone, recipient, purpose, key points)."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "email",
+            "style": "professional",
+            "length": "medium"
+          },
+          "description": "Generate the email draft based on the analyzed user input."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format_type": "email_structure",
+            "template_name": "standard_email"
+          },
+          "description": "Format the generated email with proper subject line, salutation, body, and closing."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "text",
+            "delivery_method": "display_to_user"
+          },
+          "description": "Deliver the formatted email draft to the user."
+        }
+      ],
+      "estimated_time": 60,
+      "complexity": "medium",
+      "created_at": "2025-12-16T14:16:04.868Z",
+      "updated_at": "2025-12-16T14:16:04.868Z"
+    },
+    {
+      "id": "mj8o33i2w8b02bguxdn",
+      "name": "Workflow for: write me a email for leav from...",
+      "description": "write me a email for leav from school",
+      "prompt": "write me a email for leav from school",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Understand the user's request to write an email for school leave."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "email",
+            "topic": "request for leave from school",
+            "tone": "formal"
+          },
+          "description": "Create a formal email requesting leave from school."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format_type": "email",
+            "structure": "standard_email_format"
+          },
+          "description": "Structure the generated email into a standard email format."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "email_draft"
+          },
+          "description": "Deliver the formatted email draft to the user."
+        }
+      ],
+      "estimated_time": 30,
+      "complexity": "low",
+      "created_at": "2025-12-16T14:17:39.195Z",
+      "updated_at": "2025-12-16T14:17:39.195Z"
+    },
+    {
+      "id": "mj8o4kf8f8ibfv8nqb",
+      "name": "Workflow for: write me a email for leave fro...",
+      "description": "write me a email for leave from school for sickness.",
+      "prompt": "write me a email for leave from school for sickness.",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Understand the request to write an email for leave."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "email",
+            "tone": "formal",
+            "topic": "school leave for sickness"
+          },
+          "description": "Generate the draft email for school leave due to sickness."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format_type": "text",
+            "style": "email"
+          },
+          "description": "Format the generated content as a readable email."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "text"
+          },
+          "description": "Deliver the formatted email to the user."
+        }
+      ],
+      "estimated_time": 20,
+      "complexity": "low",
+      "created_at": "2025-12-16T14:18:47.780Z",
+      "updated_at": "2025-12-16T14:18:47.780Z"
+    },
+    {
+      "id": "mj8o5vo2wdhmshq9ss",
+      "name": "Workflow for: write me a to-do list to creat...",
+      "description": "write me a to-do list to create an omelet.",
+      "prompt": "write me a to-do list to create an omelet.",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Understand the request to create a to-do list for making an omelet."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "list",
+            "topic": "steps to make an omelet",
+            "style": "instructional"
+          },
+          "description": "Generate the step-by-step to-do list for making an omelet."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format": "bulleted_list",
+            "style": "clear_and_concise"
+          },
+          "description": "Format the generated omelet steps into a clear to-do list."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "text",
+            "destination": "user"
+          },
+          "description": "Deliver the formatted to-do list for making an omelet to the user."
+        }
+      ],
+      "estimated_time": 20,
+      "complexity": "low",
+      "created_at": "2025-12-16T14:19:49.010Z",
+      "updated_at": "2025-12-16T14:19:49.010Z"
+    },
+    {
+      "id": "mj8p5qmotqnnqux7wud",
+      "name": "Workflow for: Set up Gmail integration and s...",
+      "description": "Set up Gmail integration and send a welcome email to sarah.johnson@company.com with subject \"Welcome to NodeLess AI\" and message \"Hi Sarah, welcome to our automated workflow system! This email was sent automatically by AI.\"",
+      "prompt": "Set up Gmail integration and send a welcome email to sarah.johnson@company.com with subject \"Welcome to NodeLess AI\" and message \"Hi Sarah, welcome to our automated workflow system! This email was sent automatically by AI.\"",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "email_request",
+            "analysis_depth": "detailed"
+          },
+          "description": "Analyze the email request and extract recipient, subject, and content details"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "email",
+            "provider": "gmail",
+            "credential_type": "oauth"
+          },
+          "description": "Set up Gmail authentication and collect necessary credentials"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "send_email",
+            "service_provider": "gmail",
+            "action_data": {
+              "to": "sarah.johnson@company.com",
+              "subject": "Welcome to NodeLess AI",
+              "body": "Hi Sarah, welcome to our automated workflow system! This email was sent automatically by AI.",
+              "from": "noreply@nodelessai.com"
+            }
+          },
+          "description": "Send the actual email using Gmail integration"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct",
+            "format": "confirmation"
+          },
+          "description": "Confirm email delivery and provide status report"
+        }
+      ],
+      "estimated_time": 45,
+      "complexity": "medium",
+      "created_at": "2025-12-16T14:47:42.096Z",
+      "updated_at": "2025-12-16T14:47:42.096Z"
+    },
+    {
+      "id": "mj8p6kgfsxi54fzw24f",
+      "name": "Workflow for: Set up Twitter integration and...",
+      "description": "Set up Twitter integration and post a tweet saying \"Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai\"",
+      "prompt": "Set up Twitter integration and post a tweet saying \"Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai\"",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "social_post",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the social media post request"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "social",
+            "provider": "twitter",
+            "credential_type": "oauth"
+          },
+          "description": "Set up twitter authentication"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "post_social",
+            "service_provider": "twitter",
+            "action_data": {
+              "content": "Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai",
+              "hashtags": [
+                "#NodeLessAI",
+                "#automation",
+                "#ai"
+              ]
+            }
+          },
+          "description": "Post content to twitter"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Confirm post was published successfully"
+        }
+      ],
+      "estimated_time": 30,
+      "complexity": "medium",
+      "created_at": "2025-12-16T14:48:20.751Z",
+      "updated_at": "2025-12-16T14:48:20.751Z"
+    },
+    {
+      "id": "mj8p6us8in96pobok4",
+      "name": "Workflow for: Upload a file called \"project_...",
+      "description": "Upload a file called \"project_report.pdf\" to AWS S3 bucket \"company-documents\"",
+      "prompt": "Upload a file called \"project_report.pdf\" to AWS S3 bucket \"company-documents\"",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "file_upload",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the file upload request"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "storage",
+            "provider": "aws_s3",
+            "credential_type": "access_key"
+          },
+          "description": "Set up AWS S3 authentication"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "upload_file",
+            "service_provider": "aws_s3",
+            "action_data": {
+              "filename": "document.txt",
+              "bucket": "company-documents",
+              "folder": "uploads"
+            }
+          },
+          "description": "Upload file to S3 bucket"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Confirm file upload completed"
+        }
+      ],
+      "estimated_time": 25,
+      "complexity": "low",
+      "created_at": "2025-12-16T14:48:34.136Z",
+      "updated_at": "2025-12-16T14:48:34.136Z"
+    },
+    {
+      "id": "mj8pfszxd3srzcg6f1m",
+      "name": "Workflow for: Upload a file called \"project_...",
+      "description": "Upload a file called \"project_report.pdf\" to AWS S3 bucket \"company-documents\"",
+      "prompt": "Upload a file called \"project_report.pdf\" to AWS S3 bucket \"company-documents\"",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "file_upload",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the file upload request"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "storage",
+            "provider": "aws_s3",
+            "credential_type": "access_key"
+          },
+          "description": "Set up AWS S3 authentication"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "upload_file",
+            "service_provider": "aws_s3",
+            "action_data": {
+              "filename": "document.txt",
+              "bucket": "company-documents",
+              "folder": "uploads"
+            }
+          },
+          "description": "Upload file to S3 bucket"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Confirm file upload completed"
+        }
+      ],
+      "estimated_time": 25,
+      "complexity": "low",
+      "created_at": "2025-12-16T14:55:31.725Z",
+      "updated_at": "2025-12-16T14:55:31.725Z"
+    },
+    {
+      "id": "mj8pg22ex86icnhl5yr",
+      "name": "Workflow for: setup a email to send email to...",
+      "description": "setup a email to send email to samrat@gmail.com",
+      "prompt": "setup a email to send email to samrat@gmail.com",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "email_request",
+            "analysis_depth": "detailed"
+          },
+          "description": "Analyze the email request and extract recipient, subject, and content details"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "email",
+            "provider": "gmail",
+            "credential_type": "oauth"
+          },
+          "description": "Set up Gmail authentication and collect necessary credentials"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "send_email",
+            "service_provider": "gmail",
+            "action_data": {
+              "to": "samrat@gmail.com",
+              "subject": "Automated Message from NodeLess AI",
+              "body": "This is an automated message sent by NodeLess AI.",
+              "from": "noreply@nodelessai.com"
+            }
+          },
+          "description": "Send the actual email using Gmail integration"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct",
+            "format": "confirmation"
+          },
+          "description": "Confirm email delivery and provide status report"
+        }
+      ],
+      "estimated_time": 45,
+      "complexity": "medium",
+      "created_at": "2025-12-16T14:55:43.478Z",
+      "updated_at": "2025-12-16T14:55:43.478Z"
+    },
+    {
+      "id": "mj8pidp64753cn3g81g",
+      "name": "Workflow for: Send an email to samratpandeyo...",
+      "description": "Send an email to samratpandeyofficial@gmail.com, so setup a work flow for that",
+      "prompt": "Send an email to samratpandeyofficial@gmail.com, so setup a work flow for that",
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the user's request to send an email."
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "email",
+            "provider": "gmail",
+            "credential_type": "oauth"
+          },
+          "description": "Collect OAuth credentials for Gmail to send the email securely."
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "send_email",
+            "service_provider": "gmail",
+            "action_data": {
+              "to": "samratpandeyofficial@gmail.com",
+              "subject": "Automated Email from NodeLess AI",
+              "body": "This is an automated email sent via NodeLess AI. Please let me know if you received this."
+            },
+            "credentials": "${steps.2.credentials}"
+          },
+          "description": "Send the email to the specified recipient using the collected Gmail credentials."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_data": "Email to samratpandeyofficial@gmail.com has been scheduled for sending.",
+            "output_type": "confirmation"
+          },
+          "description": "Confirm to the user that the email has been processed and is being sent."
+        }
+      ],
+      "estimated_time": 3,
+      "complexity": "low",
+      "created_at": "2025-12-16T14:57:31.866Z",
+      "updated_at": "2025-12-16T14:57:31.866Z"
+    }
+  ],
+  "executions": [
+    {
+      "id": "mj8lwc566v06iws54ap",
+      "workflow_id": "mj8lwc55apalzbnjakk",
+      "status": "completed",
+      "input": {
+        "prompt": "Create a simple test workflow",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765890984570_5di3ate72",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "basic"
+              },
+              "description": "Analyze the user's request"
+            },
+            {
+              "step": 2,
+              "action": "generate_content",
+              "params": {
+                "content_type": "response",
+                "tone": "helpful"
+              },
+              "description": "Generate helpful content"
+            },
+            {
+              "step": 3,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct"
+              },
+              "description": "Deliver results"
+            }
+          ],
+          "estimated_time": 15,
+          "complexity": "low",
+          "id": "mj8lwc55apalzbnjakk"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 29,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [],
+              "requirements": {}
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T13:16:24.570Z",
+              "duration_ms": 296
+            },
+            "step_description": "Analyze the user's request",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:16:24.570Z",
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "content": "Generated response content with helpful tone. This is a sample response that demonstrates the content generation capability of the system.",
+              "content_type": "response",
+              "parameters_used": {
+                "tone": "helpful",
+                "length": "medium",
+                "platform": "general",
+                "count": 1,
+                "include_hashtags": false
+              },
+              "word_count": 20
+            },
+            "metadata": {
+              "generated_at": "2025-12-16T13:16:24.570Z",
+              "duration_ms": 714
+            },
+            "step_description": "Generate helpful content",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:16:24.570Z",
+            "step_number": 2,
+            "action_name": "generate_content",
+            "function_name": "generate_content"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T13:16:24.570Z",
+              "result": {
+                "content": {
+                  "content": "Generated response content with helpful tone. This is a sample response that demonstrates the content generation capability of the system.",
+                  "content_type": "response",
+                  "parameters_used": {
+                    "tone": "helpful",
+                    "length": "medium",
+                    "platform": "general",
+                    "count": 1,
+                    "include_hashtags": false
+                  },
+                  "word_count": 20
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 2,
+                "successful_steps": 2,
+                "total_time_ms": 1010,
+                "workflow_type": "general"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T13:16:24.570Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Deliver results",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:16:24.570Z",
+            "step_number": 3,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 0,
+        "completed_at": "2025-12-16T13:16:24.570Z",
+        "success": true
+      },
+      "execution_time": 0,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the user's request"
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "response",
+            "tone": "helpful"
+          },
+          "description": "Generate helpful content"
+        },
+        {
+          "step": 3,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Deliver results"
+        }
+      ],
+      "created_at": "2025-12-16T13:16:24.570Z",
+      "updated_at": "2025-12-16T13:16:24.570Z"
+    },
+    {
+      "id": "mj8lymry14wesfjyt03",
+      "workflow_id": "mj8lymrxk9q4zagkplt",
+      "status": "completed",
+      "input": {
+        "prompt": "Create a simple test workflow",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765891091662_m6oonl755",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "basic"
+              },
+              "description": "Analyze the user's request"
+            },
+            {
+              "step": 2,
+              "action": "generate_content",
+              "params": {
+                "content_type": "response",
+                "tone": "helpful"
+              },
+              "description": "Generate helpful content"
+            },
+            {
+              "step": 3,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct"
+              },
+              "description": "Deliver results"
+            }
+          ],
+          "estimated_time": 15,
+          "complexity": "low",
+          "id": "mj8lymrxk9q4zagkplt"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 29,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [],
+              "requirements": {}
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T13:18:11.663Z",
+              "duration_ms": 458
+            },
+            "step_description": "Analyze the user's request",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T13:18:11.663Z",
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "content": "Generated response content with helpful tone. This is a sample response that demonstrates the content generation capability of the system.",
+              "content_type": "response",
+              "parameters_used": {
+                "tone": "helpful",
+                "length": "medium",
+                "platform": "general",
+                "count": 1,
+                "include_hashtags": false
+              },
+              "word_count": 20
+            },
+            "metadata": {
+              "generated_at": "2025-12-16T13:18:11.663Z",
+              "duration_ms": 962
+            },
+            "step_description": "Generate helpful content",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:18:11.663Z",
+            "step_number": 2,
+            "action_name": "generate_content",
+            "function_name": "generate_content"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T13:18:11.663Z",
+              "result": {
+                "content": {
+                  "content": "Generated response content with helpful tone. This is a sample response that demonstrates the content generation capability of the system.",
+                  "content_type": "response",
+                  "parameters_used": {
+                    "tone": "helpful",
+                    "length": "medium",
+                    "platform": "general",
+                    "count": 1,
+                    "include_hashtags": false
+                  },
+                  "word_count": 20
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 2,
+                "successful_steps": 2,
+                "total_time_ms": 1420,
+                "workflow_type": "general"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T13:18:11.663Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Deliver results",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:18:11.663Z",
+            "step_number": 3,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T13:18:11.663Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the user's request"
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "response",
+            "tone": "helpful"
+          },
+          "description": "Generate helpful content"
+        },
+        {
+          "step": 3,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Deliver results"
+        }
+      ],
+      "created_at": "2025-12-16T13:18:11.662Z",
+      "updated_at": "2025-12-16T13:18:11.663Z"
+    },
+    {
+      "id": "mj8m3pjwva5uxup68gp",
+      "workflow_id": "mj8m3pjvx0zx7of75x",
+      "status": "completed",
+      "input": {
+        "prompt": "create a schedule for me a note about AI",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765891328540_t6wnz4a31",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "basic"
+              },
+              "description": "Analyze the scheduling request"
+            },
+            {
+              "step": 2,
+              "action": "generate_content",
+              "params": {
+                "content_type": "schedule",
+                "tone": "professional"
+              },
+              "description": "Create schedule or note content"
+            },
+            {
+              "step": 3,
+              "action": "format_output",
+              "params": {
+                "format": "structured"
+              },
+              "description": "Format the schedule properly"
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct"
+              },
+              "description": "Deliver the completed schedule"
+            }
+          ],
+          "estimated_time": 20,
+          "complexity": "medium",
+          "id": "mj8m3pjvx0zx7of75x"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 40,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [],
+              "requirements": {}
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T13:22:08.540Z",
+              "duration_ms": 409
+            },
+            "step_description": "Analyze the scheduling request",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:22:08.540Z",
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "content": "Generated schedule content with professional tone. This is a sample response that demonstrates the content generation capability of the system.",
+              "content_type": "schedule",
+              "parameters_used": {
+                "tone": "professional",
+                "length": "medium",
+                "platform": "general",
+                "count": 1,
+                "include_hashtags": false
+              },
+              "word_count": 20
+            },
+            "metadata": {
+              "generated_at": "2025-12-16T13:22:08.541Z",
+              "duration_ms": 381
+            },
+            "step_description": "Create schedule or note content",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T13:22:08.541Z",
+            "step_number": 2,
+            "action_name": "generate_content",
+            "function_name": "generate_content"
+          },
+          {
+            "success": true,
+            "data": {
+              "title": "planning Output",
+              "content": "Generated schedule content with professional tone. This is a sample response that demonstrates the content generation capability of the system.",
+              "timestamp": "2025-12-16T13:22:08.541Z"
+            },
+            "metadata": {
+              "formatted_at": "2025-12-16T13:22:08.541Z",
+              "format_type": "structured",
+              "duration_ms": 245
+            },
+            "step_description": "Format the schedule properly",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:22:08.541Z",
+            "step_number": 3,
+            "action_name": "format_output",
+            "function_name": "format_output"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T13:22:08.541Z",
+              "result": {
+                "content": {
+                  "title": "planning Output",
+                  "content": "Generated schedule content with professional tone. This is a sample response that demonstrates the content generation capability of the system.",
+                  "timestamp": "2025-12-16T13:22:08.541Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 1035,
+                "workflow_type": "planning"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T13:22:08.541Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Deliver the completed schedule",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T13:22:08.541Z",
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T13:22:08.541Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the scheduling request"
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "schedule",
+            "tone": "professional"
+          },
+          "description": "Create schedule or note content"
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format": "structured"
+          },
+          "description": "Format the schedule properly"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Deliver the completed schedule"
+        }
+      ],
+      "created_at": "2025-12-16T13:22:08.540Z",
+      "updated_at": "2025-12-16T13:22:08.541Z"
+    },
+    {
+      "id": "mj8o12px2jdmgp543ly",
+      "workflow_id": "mj8o12pwwerqe8l2do",
+      "status": "completed",
+      "input": {
+        "prompt": "Help me write an email",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765894564869_ijxq56i3c",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "detailed"
+              },
+              "description": "Understand the user's specific requirements for the email (topic, tone, recipient, purpose, key points)."
+            },
+            {
+              "step": 2,
+              "action": "generate_content",
+              "params": {
+                "content_type": "email",
+                "style": "professional",
+                "length": "medium"
+              },
+              "description": "Generate the email draft based on the analyzed user input."
+            },
+            {
+              "step": 3,
+              "action": "format_output",
+              "params": {
+                "format_type": "email_structure",
+                "template_name": "standard_email"
+              },
+              "description": "Format the generated email with proper subject line, salutation, body, and closing."
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "output_type": "text",
+                "delivery_method": "display_to_user"
+              },
+              "description": "Deliver the formatted email draft to the user."
+            }
+          ],
+          "estimated_time": 60,
+          "complexity": "medium",
+          "id": "mj8o12pwwerqe8l2do"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 22,
+              "complexity": "detailed",
+              "focus_area": "general",
+              "key_elements": [
+                "communication"
+              ],
+              "requirements": {
+                "format": "email"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:16:04.871Z",
+              "duration_ms": 567
+            },
+            "step_description": "Understand the user's specific requirements for the email (topic, tone, recipient, purpose, key points).",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:16:04.871Z",
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+              "content_type": "email",
+              "parameters_used": {
+                "tone": "neutral",
+                "length": "medium",
+                "platform": "general",
+                "count": 1,
+                "include_hashtags": false
+              },
+              "word_count": 61
+            },
+            "metadata": {
+              "generated_at": "2025-12-16T14:16:04.871Z",
+              "duration_ms": 559
+            },
+            "step_description": "Generate the email draft based on the analyzed user input.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:16:04.871Z",
+            "step_number": 2,
+            "action_name": "generate_content",
+            "function_name": "generate_content"
+          },
+          {
+            "success": true,
+            "data": {
+              "title": "email Output",
+              "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+              "timestamp": "2025-12-16T14:16:04.871Z"
+            },
+            "metadata": {
+              "formatted_at": "2025-12-16T14:16:04.871Z",
+              "format_type": "structured",
+              "duration_ms": 205
+            },
+            "step_description": "Format the generated email with proper subject line, salutation, body, and closing.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:16:04.871Z",
+            "step_number": 3,
+            "action_name": "format_output",
+            "function_name": "format_output"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "display_to_user",
+              "timestamp": "2025-12-16T14:16:04.872Z",
+              "result": {
+                "content": {
+                  "title": "email Output",
+                  "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+                  "timestamp": "2025-12-16T14:16:04.871Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 1331,
+                "workflow_type": "email"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:16:04.872Z",
+              "delivery_method": "display_to_user",
+              "final_step": true
+            },
+            "step_description": "Deliver the formatted email draft to the user.",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T14:16:04.872Z",
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 2,
+        "completed_at": "2025-12-16T14:16:04.872Z",
+        "success": true
+      },
+      "execution_time": 2,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "detailed"
+          },
+          "description": "Understand the user's specific requirements for the email (topic, tone, recipient, purpose, key points)."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "email",
+            "style": "professional",
+            "length": "medium"
+          },
+          "description": "Generate the email draft based on the analyzed user input."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format_type": "email_structure",
+            "template_name": "standard_email"
+          },
+          "description": "Format the generated email with proper subject line, salutation, body, and closing."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "text",
+            "delivery_method": "display_to_user"
+          },
+          "description": "Deliver the formatted email draft to the user."
+        }
+      ],
+      "created_at": "2025-12-16T14:16:04.869Z",
+      "updated_at": "2025-12-16T14:16:04.872Z"
+    },
+    {
+      "id": "mj8o33i5yuzw16fh1qc",
+      "workflow_id": "mj8o33i2w8b02bguxdn",
+      "status": "completed",
+      "input": {
+        "prompt": "write me a email for leav from school",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765894659196_ru75tq4xg",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "basic"
+              },
+              "description": "Understand the user's request to write an email for school leave."
+            },
+            {
+              "step": 2,
+              "action": "generate_content",
+              "params": {
+                "content_type": "email",
+                "topic": "request for leave from school",
+                "tone": "formal"
+              },
+              "description": "Create a formal email requesting leave from school."
+            },
+            {
+              "step": 3,
+              "action": "format_output",
+              "params": {
+                "format_type": "email",
+                "structure": "standard_email_format"
+              },
+              "description": "Structure the generated email into a standard email format."
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "output_type": "email_draft"
+              },
+              "description": "Deliver the formatted email draft to the user."
+            }
+          ],
+          "estimated_time": 30,
+          "complexity": "low",
+          "id": "mj8o33i2w8b02bguxdn"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 37,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [
+                "communication"
+              ],
+              "requirements": {
+                "format": "email"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:17:39.199Z",
+              "duration_ms": 469
+            },
+            "step_description": "Understand the user's request to write an email for school leave.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:17:39.199Z",
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+              "content_type": "email",
+              "parameters_used": {
+                "tone": "formal",
+                "length": "medium",
+                "platform": "general",
+                "count": 1,
+                "include_hashtags": false
+              },
+              "word_count": 61
+            },
+            "metadata": {
+              "generated_at": "2025-12-16T14:17:39.199Z",
+              "duration_ms": 592
+            },
+            "step_description": "Create a formal email requesting leave from school.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:17:39.199Z",
+            "step_number": 2,
+            "action_name": "generate_content",
+            "function_name": "generate_content"
+          },
+          {
+            "success": true,
+            "data": {
+              "title": "email Output",
+              "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+              "timestamp": "2025-12-16T14:17:39.200Z"
+            },
+            "metadata": {
+              "formatted_at": "2025-12-16T14:17:39.200Z",
+              "format_type": "structured",
+              "duration_ms": 222
+            },
+            "step_description": "Structure the generated email into a standard email format.",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T14:17:39.200Z",
+            "step_number": 3,
+            "action_name": "format_output",
+            "function_name": "format_output"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:17:39.200Z",
+              "result": {
+                "content": {
+                  "title": "email Output",
+                  "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+                  "timestamp": "2025-12-16T14:17:39.200Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 1283,
+                "workflow_type": "email"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:17:39.200Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Deliver the formatted email draft to the user.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:17:39.200Z",
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 2,
+        "completed_at": "2025-12-16T14:17:39.200Z",
+        "success": true
+      },
+      "execution_time": 2,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Understand the user's request to write an email for school leave."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "email",
+            "topic": "request for leave from school",
+            "tone": "formal"
+          },
+          "description": "Create a formal email requesting leave from school."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format_type": "email",
+            "structure": "standard_email_format"
+          },
+          "description": "Structure the generated email into a standard email format."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "email_draft"
+          },
+          "description": "Deliver the formatted email draft to the user."
+        }
+      ],
+      "created_at": "2025-12-16T14:17:39.197Z",
+      "updated_at": "2025-12-16T14:17:39.201Z"
+    },
+    {
+      "id": "mj8o4kf9p39lvprzgcp",
+      "workflow_id": "mj8o4kf8f8ibfv8nqb",
+      "status": "completed",
+      "input": {
+        "prompt": "write me a email for leave from school for sickness.",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765894727781_47ylch4c9",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "basic"
+              },
+              "description": "Understand the request to write an email for leave."
+            },
+            {
+              "step": 2,
+              "action": "generate_content",
+              "params": {
+                "content_type": "email",
+                "tone": "formal",
+                "topic": "school leave for sickness"
+              },
+              "description": "Generate the draft email for school leave due to sickness."
+            },
+            {
+              "step": 3,
+              "action": "format_output",
+              "params": {
+                "format_type": "text",
+                "style": "email"
+              },
+              "description": "Format the generated content as a readable email."
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "output_type": "text"
+              },
+              "description": "Deliver the formatted email to the user."
+            }
+          ],
+          "estimated_time": 20,
+          "complexity": "low",
+          "id": "mj8o4kf8f8ibfv8nqb"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 52,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [
+                "communication"
+              ],
+              "requirements": {
+                "format": "email"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:18:47.783Z",
+              "duration_ms": 697
+            },
+            "step_description": "Understand the request to write an email for leave.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:18:47.783Z",
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+              "content_type": "email",
+              "parameters_used": {
+                "tone": "formal",
+                "length": "medium",
+                "platform": "general",
+                "count": 1,
+                "include_hashtags": false
+              },
+              "word_count": 61
+            },
+            "metadata": {
+              "generated_at": "2025-12-16T14:18:47.783Z",
+              "duration_ms": 677
+            },
+            "step_description": "Generate the draft email for school leave due to sickness.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:18:47.783Z",
+            "step_number": 2,
+            "action_name": "generate_content",
+            "function_name": "generate_content"
+          },
+          {
+            "success": true,
+            "data": {
+              "title": "email Output",
+              "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+              "timestamp": "2025-12-16T14:18:47.783Z"
+            },
+            "metadata": {
+              "formatted_at": "2025-12-16T14:18:47.783Z",
+              "format_type": "structured",
+              "duration_ms": 195
+            },
+            "step_description": "Format the generated content as a readable email.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:18:47.783Z",
+            "step_number": 3,
+            "action_name": "format_output",
+            "function_name": "format_output"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:18:47.783Z",
+              "result": {
+                "content": {
+                  "title": "email Output",
+                  "content": "Subject: Re: Your Inquiry\n\nDear [Client Name],\n\nThank you for reaching out regarding [topic]. I appreciate your interest and would be happy to assist you.\n\nBased on your requirements, I recommend the following approach:\n• [Key point 1]\n• [Key point 2] \n• [Key point 3]\n\nI'm available to discuss this further at your convenience. Please let me know your preferred time for a call.\n\nBest regards,\n[Your Name]",
+                  "timestamp": "2025-12-16T14:18:47.783Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 1569,
+                "workflow_type": "email"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:18:47.783Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Deliver the formatted email to the user.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:18:47.783Z",
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 0,
+        "completed_at": "2025-12-16T14:18:47.783Z",
+        "success": true
+      },
+      "execution_time": 0,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Understand the request to write an email for leave."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "email",
+            "tone": "formal",
+            "topic": "school leave for sickness"
+          },
+          "description": "Generate the draft email for school leave due to sickness."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format_type": "text",
+            "style": "email"
+          },
+          "description": "Format the generated content as a readable email."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "text"
+          },
+          "description": "Deliver the formatted email to the user."
+        }
+      ],
+      "created_at": "2025-12-16T14:18:47.781Z",
+      "updated_at": "2025-12-16T14:18:47.784Z"
+    },
+    {
+      "id": "mj8o5vo4tldm59te1c",
+      "workflow_id": "mj8o5vo2wdhmshq9ss",
+      "status": "completed",
+      "input": {
+        "prompt": "write me a to-do list to create an omelet.",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765894789011_gvffn95f1",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "basic"
+              },
+              "description": "Understand the request to create a to-do list for making an omelet."
+            },
+            {
+              "step": 2,
+              "action": "generate_content",
+              "params": {
+                "content_type": "list",
+                "topic": "steps to make an omelet",
+                "style": "instructional"
+              },
+              "description": "Generate the step-by-step to-do list for making an omelet."
+            },
+            {
+              "step": 3,
+              "action": "format_output",
+              "params": {
+                "format": "bulleted_list",
+                "style": "clear_and_concise"
+              },
+              "description": "Format the generated omelet steps into a clear to-do list."
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "output_type": "text",
+                "destination": "user"
+              },
+              "description": "Deliver the formatted to-do list for making an omelet to the user."
+            }
+          ],
+          "estimated_time": 20,
+          "complexity": "low",
+          "id": "mj8o5vo2wdhmshq9ss"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 42,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [],
+              "requirements": {}
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:19:49.014Z",
+              "duration_ms": 695
+            },
+            "step_description": "Understand the request to create a to-do list for making an omelet.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:19:49.014Z",
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "content": "Generated list content with neutral tone. This is a sample response that demonstrates the content generation capability of the system.",
+              "content_type": "list",
+              "parameters_used": {
+                "tone": "neutral",
+                "length": "medium",
+                "platform": "general",
+                "count": 1,
+                "include_hashtags": false
+              },
+              "word_count": 20
+            },
+            "metadata": {
+              "generated_at": "2025-12-16T14:19:49.014Z",
+              "duration_ms": 872
+            },
+            "step_description": "Generate the step-by-step to-do list for making an omelet.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:19:49.014Z",
+            "step_number": 2,
+            "action_name": "generate_content",
+            "function_name": "generate_content"
+          },
+          {
+            "success": true,
+            "data": {
+              "formatted_content": "Generated list content with neutral tone. This is a sample response that demonstrates the content generation capability of the system.",
+              "format_applied": "bulleted_list",
+              "processing_complete": true
+            },
+            "metadata": {
+              "formatted_at": "2025-12-16T14:19:49.014Z",
+              "format_type": "bulleted_list",
+              "duration_ms": 193
+            },
+            "step_description": "Format the generated omelet steps into a clear to-do list.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:19:49.014Z",
+            "step_number": 3,
+            "action_name": "format_output",
+            "function_name": "format_output"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:19:49.014Z",
+              "result": {
+                "content": {
+                  "formatted_content": "Generated list content with neutral tone. This is a sample response that demonstrates the content generation capability of the system.",
+                  "format_applied": "bulleted_list",
+                  "processing_complete": true
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 1760,
+                "workflow_type": "general"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:19:49.014Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Deliver the formatted to-do list for making an omelet to the user.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:19:49.014Z",
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T14:19:49.014Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Understand the request to create a to-do list for making an omelet."
+        },
+        {
+          "step": 2,
+          "action": "generate_content",
+          "params": {
+            "content_type": "list",
+            "topic": "steps to make an omelet",
+            "style": "instructional"
+          },
+          "description": "Generate the step-by-step to-do list for making an omelet."
+        },
+        {
+          "step": 3,
+          "action": "format_output",
+          "params": {
+            "format": "bulleted_list",
+            "style": "clear_and_concise"
+          },
+          "description": "Format the generated omelet steps into a clear to-do list."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "text",
+            "destination": "user"
+          },
+          "description": "Deliver the formatted to-do list for making an omelet to the user."
+        }
+      ],
+      "created_at": "2025-12-16T14:19:49.012Z",
+      "updated_at": "2025-12-16T14:19:49.014Z"
+    },
+    {
+      "id": "mj8p163qox6dnxl1a",
+      "workflow_id": null,
+      "status": "completed",
+      "input": {
+        "prompt": "Set up Gmail and send welcome email",
+        "options": {
+          "test_mode": true
+        }
+      },
+      "output": {
+        "execution_id": "exec_1765896248868_8zaje4h9w",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "full",
+                "query": "Understand the user's request to set up Gmail and send an email."
+              },
+              "description": "Analyze the user's request to identify the email service and message details."
+            },
+            {
+              "step": 2,
+              "action": "collect_credentials",
+              "params": {
+                "service_type": "email",
+                "provider": "gmail",
+                "credential_type": "oauth",
+                "description": "Obtain OAuth credentials for Gmail to enable sending emails."
+              },
+              "description": "Collect necessary authentication credentials for Gmail."
+            },
+            {
+              "step": 3,
+              "action": "execute_action",
+              "params": {
+                "action_type": "send_email",
+                "service_provider": "gmail",
+                "action_data": {
+                  "to": "john@example.com",
+                  "subject": "Welcome to NodeLess AI!",
+                  "body": "Welcome to NodeLess AI!"
+                },
+                "credentials": {}
+              },
+              "description": "Send the welcome email to the specified recipient using the collected Gmail credentials."
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "output_type": "confirmation",
+                "message": "Welcome email sent to john@example.com via Gmail."
+              },
+              "description": "Inform the user that the welcome email has been successfully sent."
+            }
+          ],
+          "estimated_time": 5,
+          "complexity": "medium"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 35,
+              "complexity": "full",
+              "focus_area": "general",
+              "key_elements": [
+                "communication"
+              ],
+              "requirements": {
+                "format": "email"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:44:08.874Z",
+              "duration_ms": 635
+            },
+            "step_description": "Analyze the user's request to identify the email service and message details.",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T14:44:08.875Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 1,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "service_type": "email",
+              "provider": "gmail",
+              "credential_type": "oauth",
+              "config": {
+                "fields": [
+                  {
+                    "name": "client_id",
+                    "type": "text",
+                    "label": "Google Client ID",
+                    "required": true
+                  },
+                  {
+                    "name": "client_secret",
+                    "type": "password",
+                    "label": "Google Client Secret",
+                    "required": true
+                  },
+                  {
+                    "name": "redirect_uri",
+                    "type": "text",
+                    "label": "Redirect URI",
+                    "required": true,
+                    "default": "http://localhost:3000/auth/callback"
+                  }
+                ],
+                "auth_flow": "oauth2",
+                "scopes": [
+                  "https://www.googleapis.com/auth/gmail.send"
+                ],
+                "requires_user_input": true,
+                "complexity": "medium",
+                "estimated_time": "5-10 minutes"
+              },
+              "setup_instructions": [
+                "1. Go to Google Cloud Console (console.cloud.google.com)",
+                "2. Create a new project or select existing one",
+                "3. Enable Gmail API",
+                "4. Go to 'Credentials' and create OAuth 2.0 client ID",
+                "5. Add redirect URI: http://localhost:3000/auth/callback",
+                "6. Copy Client ID and Client Secret",
+                "7. Complete OAuth flow when prompted"
+              ],
+              "security_note": "Credentials will be securely stored and encrypted",
+              "next_steps": [
+                "1. Enter your credentials in the form below",
+                "2. Test the connection to verify setup",
+                "3. Save the integration for future use",
+                "4. Start using the integration in your workflows"
+              ]
+            },
+            "metadata": {
+              "requires_user_input": true,
+              "setup_complexity": "medium",
+              "estimated_time": "5-10 minutes"
+            },
+            "step_description": "Collect necessary authentication credentials for Gmail.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:44:08.875Z",
+            "integration_used": {
+              "action_type": "collect_credentials",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "success"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 2,
+            "action_name": "collect_credentials",
+            "function_name": "collect_credentials"
+          },
+          {
+            "success": true,
+            "data": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "status": "completed",
+              "result": {
+                "provider": "Gmail API",
+                "status": "sent",
+                "message_id": "gmail_1765896248875",
+                "to": "john@example.com",
+                "subject": "Welcome to NodeLess AI!",
+                "sent_at": "2025-12-16T14:44:08.875Z",
+                "note": "Email sent via Gmail API (requires OAuth setup)"
+              },
+              "executed_at": "2025-12-16T14:44:08.875Z"
+            },
+            "metadata": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "execution_time": 1765896248875
+            },
+            "step_description": "Send the welcome email to the specified recipient using the collected Gmail credentials.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:44:08.875Z",
+            "integration_used": {
+              "action_type": "execute_action",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "completed"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 3,
+            "action_name": "execute_action",
+            "function_name": "execute_action"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:44:08.875Z",
+              "result": {
+                "content": {
+                  "action_type": "send_email",
+                  "service_provider": "gmail",
+                  "status": "completed",
+                  "result": {
+                    "provider": "Gmail API",
+                    "status": "sent",
+                    "message_id": "gmail_1765896248875",
+                    "to": "john@example.com",
+                    "subject": "Welcome to NodeLess AI!",
+                    "sent_at": "2025-12-16T14:44:08.875Z",
+                    "note": "Email sent via Gmail API (requires OAuth setup)"
+                  },
+                  "executed_at": "2025-12-16T14:44:08.875Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 635,
+                "workflow_type": "email"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:44:08.876Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Inform the user that the welcome email has been successfully sent.",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T14:44:08.876Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 1,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 2,
+        "completed_at": "2025-12-16T14:44:08.876Z",
+        "success": true
+      },
+      "execution_time": 2,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "full",
+            "query": "Understand the user's request to set up Gmail and send an email."
+          },
+          "description": "Analyze the user's request to identify the email service and message details."
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "email",
+            "provider": "gmail",
+            "credential_type": "oauth",
+            "description": "Obtain OAuth credentials for Gmail to enable sending emails."
+          },
+          "description": "Collect necessary authentication credentials for Gmail."
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "send_email",
+            "service_provider": "gmail",
+            "action_data": {
+              "to": "john@example.com",
+              "subject": "Welcome to NodeLess AI!",
+              "body": "Welcome to NodeLess AI!"
+            },
+            "credentials": {}
+          },
+          "description": "Send the welcome email to the specified recipient using the collected Gmail credentials."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_type": "confirmation",
+            "message": "Welcome email sent to john@example.com via Gmail."
+          },
+          "description": "Inform the user that the welcome email has been successfully sent."
+        }
+      ],
+      "created_at": "2025-12-16T14:44:08.870Z",
+      "updated_at": "2025-12-16T14:44:08.876Z"
+    },
+    {
+      "id": "mj8p5qms96evsv52fb",
+      "workflow_id": "mj8p5qmotqnnqux7wud",
+      "status": "completed",
+      "input": {
+        "prompt": "Set up Gmail integration and send a welcome email to sarah.johnson@company.com with subject \"Welcome to NodeLess AI\" and message \"Hi Sarah, welcome to our automated workflow system! This email was sent automatically by AI.\"",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765896462099_otslmko4a",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "email_request",
+                "analysis_depth": "detailed"
+              },
+              "description": "Analyze the email request and extract recipient, subject, and content details"
+            },
+            {
+              "step": 2,
+              "action": "collect_credentials",
+              "params": {
+                "service_type": "email",
+                "provider": "gmail",
+                "credential_type": "oauth"
+              },
+              "description": "Set up Gmail authentication and collect necessary credentials"
+            },
+            {
+              "step": 3,
+              "action": "execute_action",
+              "params": {
+                "action_type": "send_email",
+                "service_provider": "gmail",
+                "action_data": {
+                  "to": "sarah.johnson@company.com",
+                  "subject": "Welcome to NodeLess AI",
+                  "body": "Hi Sarah, welcome to our automated workflow system! This email was sent automatically by AI.",
+                  "from": "noreply@nodelessai.com"
+                }
+              },
+              "description": "Send the actual email using Gmail integration"
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct",
+                "format": "confirmation"
+              },
+              "description": "Confirm email delivery and provide status report"
+            }
+          ],
+          "estimated_time": 45,
+          "complexity": "medium",
+          "id": "mj8p5qmotqnnqux7wud"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "email_request",
+              "content_length": 223,
+              "complexity": "detailed",
+              "focus_area": "general",
+              "key_elements": [
+                "communication"
+              ],
+              "requirements": {
+                "format": "email"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:47:42.101Z",
+              "duration_ms": 479
+            },
+            "step_description": "Analyze the email request and extract recipient, subject, and content details",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:47:42.101Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "service_type": "email",
+              "provider": "gmail",
+              "credential_type": "oauth",
+              "config": {
+                "fields": [
+                  {
+                    "name": "client_id",
+                    "type": "text",
+                    "label": "Google Client ID",
+                    "required": true
+                  },
+                  {
+                    "name": "client_secret",
+                    "type": "password",
+                    "label": "Google Client Secret",
+                    "required": true
+                  },
+                  {
+                    "name": "redirect_uri",
+                    "type": "text",
+                    "label": "Redirect URI",
+                    "required": true,
+                    "default": "http://localhost:3000/auth/callback"
+                  }
+                ],
+                "auth_flow": "oauth2",
+                "scopes": [
+                  "https://www.googleapis.com/auth/gmail.send"
+                ],
+                "requires_user_input": true,
+                "complexity": "medium",
+                "estimated_time": "5-10 minutes"
+              },
+              "setup_instructions": [
+                "1. Go to Google Cloud Console (console.cloud.google.com)",
+                "2. Create a new project or select existing one",
+                "3. Enable Gmail API",
+                "4. Go to 'Credentials' and create OAuth 2.0 client ID",
+                "5. Add redirect URI: http://localhost:3000/auth/callback",
+                "6. Copy Client ID and Client Secret",
+                "7. Complete OAuth flow when prompted"
+              ],
+              "security_note": "Credentials will be securely stored and encrypted",
+              "next_steps": [
+                "1. Enter your credentials in the form below",
+                "2. Test the connection to verify setup",
+                "3. Save the integration for future use",
+                "4. Start using the integration in your workflows"
+              ]
+            },
+            "metadata": {
+              "requires_user_input": true,
+              "setup_complexity": "medium",
+              "estimated_time": "5-10 minutes"
+            },
+            "step_description": "Set up Gmail authentication and collect necessary credentials",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:47:42.101Z",
+            "integration_used": {
+              "action_type": "collect_credentials",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "success"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 2,
+            "action_name": "collect_credentials",
+            "function_name": "collect_credentials"
+          },
+          {
+            "success": true,
+            "data": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "status": "completed",
+              "result": {
+                "provider": "Gmail API",
+                "status": "sent",
+                "message_id": "gmail_1765896462102",
+                "to": "sarah.johnson@company.com",
+                "subject": "Welcome to NodeLess AI",
+                "sent_at": "2025-12-16T14:47:42.102Z",
+                "note": "Email sent via Gmail API (requires OAuth setup)"
+              },
+              "executed_at": "2025-12-16T14:47:42.102Z"
+            },
+            "metadata": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "execution_time": 1765896462102
+            },
+            "step_description": "Send the actual email using Gmail integration",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:47:42.102Z",
+            "integration_used": {
+              "action_type": "execute_action",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "completed"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 3,
+            "action_name": "execute_action",
+            "function_name": "execute_action"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:47:42.102Z",
+              "result": {
+                "content": {
+                  "action_type": "send_email",
+                  "service_provider": "gmail",
+                  "status": "completed",
+                  "result": {
+                    "provider": "Gmail API",
+                    "status": "sent",
+                    "message_id": "gmail_1765896462102",
+                    "to": "sarah.johnson@company.com",
+                    "subject": "Welcome to NodeLess AI",
+                    "sent_at": "2025-12-16T14:47:42.102Z",
+                    "note": "Email sent via Gmail API (requires OAuth setup)"
+                  },
+                  "executed_at": "2025-12-16T14:47:42.102Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 479,
+                "workflow_type": "email"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:47:42.102Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Confirm email delivery and provide status report",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:47:42.102Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T14:47:42.102Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "email_request",
+            "analysis_depth": "detailed"
+          },
+          "description": "Analyze the email request and extract recipient, subject, and content details"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "email",
+            "provider": "gmail",
+            "credential_type": "oauth"
+          },
+          "description": "Set up Gmail authentication and collect necessary credentials"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "send_email",
+            "service_provider": "gmail",
+            "action_data": {
+              "to": "sarah.johnson@company.com",
+              "subject": "Welcome to NodeLess AI",
+              "body": "Hi Sarah, welcome to our automated workflow system! This email was sent automatically by AI.",
+              "from": "noreply@nodelessai.com"
+            }
+          },
+          "description": "Send the actual email using Gmail integration"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct",
+            "format": "confirmation"
+          },
+          "description": "Confirm email delivery and provide status report"
+        }
+      ],
+      "created_at": "2025-12-16T14:47:42.100Z",
+      "updated_at": "2025-12-16T14:47:42.103Z"
+    },
+    {
+      "id": "mj8p6kghidncqdtuggc",
+      "workflow_id": "mj8p6kgfsxi54fzw24f",
+      "status": "completed",
+      "input": {
+        "prompt": "Set up Twitter integration and post a tweet saying \"Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai\"",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765896500753_ndhlv7r0s",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "social_post",
+                "analysis_depth": "basic"
+              },
+              "description": "Analyze the social media post request"
+            },
+            {
+              "step": 2,
+              "action": "collect_credentials",
+              "params": {
+                "service_type": "social",
+                "provider": "twitter",
+                "credential_type": "oauth"
+              },
+              "description": "Set up twitter authentication"
+            },
+            {
+              "step": 3,
+              "action": "execute_action",
+              "params": {
+                "action_type": "post_social",
+                "service_provider": "twitter",
+                "action_data": {
+                  "content": "Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai",
+                  "hashtags": [
+                    "#NodeLessAI",
+                    "#automation",
+                    "#ai"
+                  ]
+                }
+              },
+              "description": "Post content to twitter"
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct"
+              },
+              "description": "Confirm post was published successfully"
+            }
+          ],
+          "estimated_time": 30,
+          "complexity": "medium",
+          "id": "mj8p6kgfsxi54fzw24f"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "social_post",
+              "content_length": 161,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [
+                "social_content"
+              ],
+              "requirements": {
+                "platform": "social"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:48:20.754Z",
+              "duration_ms": 296
+            },
+            "step_description": "Analyze the social media post request",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T14:48:20.755Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 1,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "service_type": "social",
+              "provider": "twitter",
+              "credential_type": "oauth",
+              "config": {
+                "fields": [
+                  {
+                    "name": "api_key",
+                    "type": "text",
+                    "label": "Twitter API Key",
+                    "required": true
+                  },
+                  {
+                    "name": "api_secret",
+                    "type": "password",
+                    "label": "Twitter API Secret",
+                    "required": true
+                  },
+                  {
+                    "name": "access_token",
+                    "type": "password",
+                    "label": "Access Token",
+                    "required": true
+                  },
+                  {
+                    "name": "access_token_secret",
+                    "type": "password",
+                    "label": "Access Token Secret",
+                    "required": true
+                  }
+                ],
+                "auth_flow": "oauth1",
+                "requires_user_input": true,
+                "complexity": "high",
+                "estimated_time": "10-15 minutes"
+              },
+              "setup_instructions": [
+                "1. Visit the service provider's developer documentation",
+                "2. Create developer account if needed",
+                "3. Generate required API credentials",
+                "4. Configure authentication settings"
+              ],
+              "security_note": "Credentials will be securely stored and encrypted",
+              "next_steps": [
+                "1. Enter your credentials in the form below",
+                "2. Test the connection to verify setup",
+                "3. Save the integration for future use",
+                "4. Start using the integration in your workflows"
+              ]
+            },
+            "metadata": {
+              "requires_user_input": true,
+              "setup_complexity": "high",
+              "estimated_time": "10-15 minutes"
+            },
+            "step_description": "Set up twitter authentication",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:48:20.755Z",
+            "integration_used": {
+              "action_type": "collect_credentials",
+              "provider": "twitter",
+              "integration_id": null,
+              "status": "success"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 2,
+            "action_name": "collect_credentials",
+            "function_name": "collect_credentials"
+          },
+          {
+            "success": true,
+            "data": {
+              "action_type": "post_social",
+              "service_provider": "twitter",
+              "status": "completed",
+              "result": {
+                "provider": "Twitter API v2",
+                "status": "posted",
+                "post_id": "tweet_1765896500755",
+                "content": "Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai",
+                "hashtags": [
+                  "#NodeLessAI",
+                  "#automation",
+                  "#ai"
+                ],
+                "posted_at": "2025-12-16T14:48:20.755Z",
+                "note": "Tweet posted (requires Twitter API credentials)"
+              },
+              "executed_at": "2025-12-16T14:48:20.755Z"
+            },
+            "metadata": {
+              "action_type": "post_social",
+              "service_provider": "twitter",
+              "execution_time": 1765896500755
+            },
+            "step_description": "Post content to twitter",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:48:20.755Z",
+            "integration_used": {
+              "action_type": "execute_action",
+              "provider": "twitter",
+              "integration_id": null,
+              "status": "completed"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 3,
+            "action_name": "execute_action",
+            "function_name": "execute_action"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:48:20.755Z",
+              "result": {
+                "content": {
+                  "action_type": "post_social",
+                  "service_provider": "twitter",
+                  "status": "completed",
+                  "result": {
+                    "provider": "Twitter API v2",
+                    "status": "posted",
+                    "post_id": "tweet_1765896500755",
+                    "content": "Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai",
+                    "hashtags": [
+                      "#NodeLessAI",
+                      "#automation",
+                      "#ai"
+                    ],
+                    "posted_at": "2025-12-16T14:48:20.755Z",
+                    "note": "Tweet posted (requires Twitter API credentials)"
+                  },
+                  "executed_at": "2025-12-16T14:48:20.755Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 296,
+                "workflow_type": "social_media"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:48:20.755Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Confirm post was published successfully",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:48:20.755Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T14:48:20.755Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "social_post",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the social media post request"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "social",
+            "provider": "twitter",
+            "credential_type": "oauth"
+          },
+          "description": "Set up twitter authentication"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "post_social",
+            "service_provider": "twitter",
+            "action_data": {
+              "content": "Hello from NodeLess AI! 🤖 Revolutionizing automation with real AI integrations. #NodeLessAI #automation #ai",
+              "hashtags": [
+                "#NodeLessAI",
+                "#automation",
+                "#ai"
+              ]
+            }
+          },
+          "description": "Post content to twitter"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Confirm post was published successfully"
+        }
+      ],
+      "created_at": "2025-12-16T14:48:20.753Z",
+      "updated_at": "2025-12-16T14:48:20.756Z"
+    },
+    {
+      "id": "mj8p6usbnwd3es5vci",
+      "workflow_id": "mj8p6us8in96pobok4",
+      "status": "completed",
+      "input": {
+        "prompt": "Upload a file called \"project_report.pdf\" to AWS S3 bucket \"company-documents\"",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765896514138_usyeegnol",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "file_upload",
+                "analysis_depth": "basic"
+              },
+              "description": "Analyze the file upload request"
+            },
+            {
+              "step": 2,
+              "action": "collect_credentials",
+              "params": {
+                "service_type": "storage",
+                "provider": "aws_s3",
+                "credential_type": "access_key"
+              },
+              "description": "Set up AWS S3 authentication"
+            },
+            {
+              "step": 3,
+              "action": "execute_action",
+              "params": {
+                "action_type": "upload_file",
+                "service_provider": "aws_s3",
+                "action_data": {
+                  "filename": "document.txt",
+                  "bucket": "company-documents",
+                  "folder": "uploads"
+                }
+              },
+              "description": "Upload file to S3 bucket"
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct"
+              },
+              "description": "Confirm file upload completed"
+            }
+          ],
+          "estimated_time": 25,
+          "complexity": "low",
+          "id": "mj8p6us8in96pobok4"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "file_upload",
+              "content_length": 78,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [
+                "document_processing"
+              ],
+              "requirements": {
+                "format": "document"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:48:34.140Z",
+              "duration_ms": 587
+            },
+            "step_description": "Analyze the file upload request",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:48:34.140Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "service_type": "storage",
+              "provider": "aws_s3",
+              "credential_type": "access_key",
+              "config": {
+                "fields": [
+                  {
+                    "name": "access_key_id",
+                    "type": "text",
+                    "label": "AWS Access Key ID",
+                    "required": true
+                  },
+                  {
+                    "name": "secret_access_key",
+                    "type": "password",
+                    "label": "AWS Secret Access Key",
+                    "required": true
+                  },
+                  {
+                    "name": "region",
+                    "type": "select",
+                    "label": "AWS Region",
+                    "required": true,
+                    "options": [
+                      "us-east-1",
+                      "us-west-2",
+                      "eu-west-1"
+                    ]
+                  },
+                  {
+                    "name": "bucket_name",
+                    "type": "text",
+                    "label": "S3 Bucket Name",
+                    "required": true
+                  }
+                ],
+                "auth_flow": "api_key",
+                "requires_user_input": true,
+                "complexity": "medium",
+                "estimated_time": "5-10 minutes"
+              },
+              "setup_instructions": [
+                "1. Visit the service provider's developer documentation",
+                "2. Create developer account if needed",
+                "3. Generate required API credentials",
+                "4. Configure authentication settings"
+              ],
+              "security_note": "Credentials will be securely stored and encrypted",
+              "next_steps": [
+                "1. Enter your credentials in the form below",
+                "2. Test the connection to verify setup",
+                "3. Save the integration for future use",
+                "4. Start using the integration in your workflows"
+              ]
+            },
+            "metadata": {
+              "requires_user_input": true,
+              "setup_complexity": "medium",
+              "estimated_time": "5-10 minutes"
+            },
+            "step_description": "Set up AWS S3 authentication",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:48:34.140Z",
+            "integration_used": {
+              "action_type": "collect_credentials",
+              "provider": "aws_s3",
+              "integration_id": null,
+              "status": "success"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 2,
+            "action_name": "collect_credentials",
+            "function_name": "collect_credentials"
+          },
+          {
+            "success": true,
+            "data": {
+              "action_type": "upload_file",
+              "service_provider": "aws_s3",
+              "status": "completed",
+              "result": {
+                "provider": "AWS S3",
+                "status": "uploaded",
+                "bucket": "company-documents",
+                "key": "uploads/document.txt",
+                "url": "https://company-documents.s3.amazonaws.com/uploads/document.txt",
+                "uploaded_at": "2025-12-16T14:48:34.141Z",
+                "note": "File uploaded to S3 (requires AWS credentials)"
+              },
+              "executed_at": "2025-12-16T14:48:34.141Z"
+            },
+            "metadata": {
+              "action_type": "upload_file",
+              "service_provider": "aws_s3",
+              "execution_time": 1765896514141
+            },
+            "step_description": "Upload file to S3 bucket",
+            "execution_time": 1,
+            "completed_at": "2025-12-16T14:48:34.141Z",
+            "integration_used": {
+              "action_type": "execute_action",
+              "provider": "aws_s3",
+              "integration_id": null,
+              "status": "completed"
+            },
+            "metrics": {
+              "execution_time_ms": 1,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 3,
+            "action_name": "execute_action",
+            "function_name": "execute_action"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:48:34.141Z",
+              "result": {
+                "content": {
+                  "action_type": "upload_file",
+                  "service_provider": "aws_s3",
+                  "status": "completed",
+                  "result": {
+                    "provider": "AWS S3",
+                    "status": "uploaded",
+                    "bucket": "company-documents",
+                    "key": "uploads/document.txt",
+                    "url": "https://company-documents.s3.amazonaws.com/uploads/document.txt",
+                    "uploaded_at": "2025-12-16T14:48:34.141Z",
+                    "note": "File uploaded to S3 (requires AWS credentials)"
+                  },
+                  "executed_at": "2025-12-16T14:48:34.141Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 587,
+                "workflow_type": "document"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:48:34.141Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Confirm file upload completed",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:48:34.141Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T14:48:34.141Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "file_upload",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the file upload request"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "storage",
+            "provider": "aws_s3",
+            "credential_type": "access_key"
+          },
+          "description": "Set up AWS S3 authentication"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "upload_file",
+            "service_provider": "aws_s3",
+            "action_data": {
+              "filename": "document.txt",
+              "bucket": "company-documents",
+              "folder": "uploads"
+            }
+          },
+          "description": "Upload file to S3 bucket"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Confirm file upload completed"
+        }
+      ],
+      "created_at": "2025-12-16T14:48:34.139Z",
+      "updated_at": "2025-12-16T14:48:34.141Z"
+    },
+    {
+      "id": "mj8pft01loyabe7yjc",
+      "workflow_id": "mj8pfszxd3srzcg6f1m",
+      "status": "completed",
+      "input": {
+        "prompt": "Upload a file called \"project_report.pdf\" to AWS S3 bucket \"company-documents\"",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765896931728_5guhcmjy9",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "file_upload",
+                "analysis_depth": "basic"
+              },
+              "description": "Analyze the file upload request"
+            },
+            {
+              "step": 2,
+              "action": "collect_credentials",
+              "params": {
+                "service_type": "storage",
+                "provider": "aws_s3",
+                "credential_type": "access_key"
+              },
+              "description": "Set up AWS S3 authentication"
+            },
+            {
+              "step": 3,
+              "action": "execute_action",
+              "params": {
+                "action_type": "upload_file",
+                "service_provider": "aws_s3",
+                "action_data": {
+                  "filename": "document.txt",
+                  "bucket": "company-documents",
+                  "folder": "uploads"
+                }
+              },
+              "description": "Upload file to S3 bucket"
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct"
+              },
+              "description": "Confirm file upload completed"
+            }
+          ],
+          "estimated_time": 25,
+          "complexity": "low",
+          "id": "mj8pfszxd3srzcg6f1m"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "file_upload",
+              "content_length": 78,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [
+                "document_processing"
+              ],
+              "requirements": {
+                "format": "document"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:55:31.733Z",
+              "duration_ms": 662
+            },
+            "step_description": "Analyze the file upload request",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:31.733Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "service_type": "storage",
+              "provider": "aws_s3",
+              "credential_type": "access_key",
+              "config": {
+                "fields": [
+                  {
+                    "name": "access_key_id",
+                    "type": "text",
+                    "label": "AWS Access Key ID",
+                    "required": true
+                  },
+                  {
+                    "name": "secret_access_key",
+                    "type": "password",
+                    "label": "AWS Secret Access Key",
+                    "required": true
+                  },
+                  {
+                    "name": "region",
+                    "type": "select",
+                    "label": "AWS Region",
+                    "required": true,
+                    "options": [
+                      "us-east-1",
+                      "us-west-2",
+                      "eu-west-1"
+                    ]
+                  },
+                  {
+                    "name": "bucket_name",
+                    "type": "text",
+                    "label": "S3 Bucket Name",
+                    "required": true
+                  }
+                ],
+                "auth_flow": "api_key",
+                "requires_user_input": true,
+                "complexity": "medium",
+                "estimated_time": "5-10 minutes"
+              },
+              "setup_instructions": [
+                "1. Visit the service provider's developer documentation",
+                "2. Create developer account if needed",
+                "3. Generate required API credentials",
+                "4. Configure authentication settings"
+              ],
+              "security_note": "Credentials will be securely stored and encrypted",
+              "next_steps": [
+                "1. Enter your credentials in the form below",
+                "2. Test the connection to verify setup",
+                "3. Save the integration for future use",
+                "4. Start using the integration in your workflows"
+              ]
+            },
+            "metadata": {
+              "requires_user_input": true,
+              "setup_complexity": "medium",
+              "estimated_time": "5-10 minutes"
+            },
+            "step_description": "Set up AWS S3 authentication",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:31.733Z",
+            "integration_used": {
+              "action_type": "collect_credentials",
+              "provider": "aws_s3",
+              "integration_id": null,
+              "status": "success"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 2,
+            "action_name": "collect_credentials",
+            "function_name": "collect_credentials"
+          },
+          {
+            "success": true,
+            "data": {
+              "action_type": "upload_file",
+              "service_provider": "aws_s3",
+              "status": "completed",
+              "result": {
+                "provider": "AWS S3",
+                "status": "uploaded",
+                "bucket": "company-documents",
+                "key": "uploads/document.txt",
+                "url": "https://company-documents.s3.amazonaws.com/uploads/document.txt",
+                "uploaded_at": "2025-12-16T14:55:31.734Z",
+                "note": "File uploaded to S3 (requires AWS credentials)"
+              },
+              "executed_at": "2025-12-16T14:55:31.734Z"
+            },
+            "metadata": {
+              "action_type": "upload_file",
+              "service_provider": "aws_s3",
+              "execution_time": 1765896931734
+            },
+            "step_description": "Upload file to S3 bucket",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:31.734Z",
+            "integration_used": {
+              "action_type": "execute_action",
+              "provider": "aws_s3",
+              "integration_id": null,
+              "status": "completed"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 3,
+            "action_name": "execute_action",
+            "function_name": "execute_action"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:55:31.734Z",
+              "result": {
+                "content": {
+                  "action_type": "upload_file",
+                  "service_provider": "aws_s3",
+                  "status": "completed",
+                  "result": {
+                    "provider": "AWS S3",
+                    "status": "uploaded",
+                    "bucket": "company-documents",
+                    "key": "uploads/document.txt",
+                    "url": "https://company-documents.s3.amazonaws.com/uploads/document.txt",
+                    "uploaded_at": "2025-12-16T14:55:31.734Z",
+                    "note": "File uploaded to S3 (requires AWS credentials)"
+                  },
+                  "executed_at": "2025-12-16T14:55:31.734Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 662,
+                "workflow_type": "document"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:55:31.734Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Confirm file upload completed",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:31.734Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 2,
+        "completed_at": "2025-12-16T14:55:31.734Z",
+        "success": true
+      },
+      "execution_time": 2,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "file_upload",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the file upload request"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "storage",
+            "provider": "aws_s3",
+            "credential_type": "access_key"
+          },
+          "description": "Set up AWS S3 authentication"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "upload_file",
+            "service_provider": "aws_s3",
+            "action_data": {
+              "filename": "document.txt",
+              "bucket": "company-documents",
+              "folder": "uploads"
+            }
+          },
+          "description": "Upload file to S3 bucket"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct"
+          },
+          "description": "Confirm file upload completed"
+        }
+      ],
+      "created_at": "2025-12-16T14:55:31.729Z",
+      "updated_at": "2025-12-16T14:55:31.735Z"
+    },
+    {
+      "id": "mj8pg22ibtu4zef52uh",
+      "workflow_id": "mj8pg22ex86icnhl5yr",
+      "status": "completed",
+      "input": {
+        "prompt": "setup a email to send email to samrat@gmail.com",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765896943481_3eufy53m6",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "email_request",
+                "analysis_depth": "detailed"
+              },
+              "description": "Analyze the email request and extract recipient, subject, and content details"
+            },
+            {
+              "step": 2,
+              "action": "collect_credentials",
+              "params": {
+                "service_type": "email",
+                "provider": "gmail",
+                "credential_type": "oauth"
+              },
+              "description": "Set up Gmail authentication and collect necessary credentials"
+            },
+            {
+              "step": 3,
+              "action": "execute_action",
+              "params": {
+                "action_type": "send_email",
+                "service_provider": "gmail",
+                "action_data": {
+                  "to": "samrat@gmail.com",
+                  "subject": "Automated Message from NodeLess AI",
+                  "body": "This is an automated message sent by NodeLess AI.",
+                  "from": "noreply@nodelessai.com"
+                }
+              },
+              "description": "Send the actual email using Gmail integration"
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "delivery_method": "direct",
+                "format": "confirmation"
+              },
+              "description": "Confirm email delivery and provide status report"
+            }
+          ],
+          "estimated_time": 45,
+          "complexity": "medium",
+          "id": "mj8pg22ex86icnhl5yr"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "email_request",
+              "content_length": 47,
+              "complexity": "detailed",
+              "focus_area": "general",
+              "key_elements": [
+                "communication"
+              ],
+              "requirements": {
+                "format": "email"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:55:43.486Z",
+              "duration_ms": 466
+            },
+            "step_description": "Analyze the email request and extract recipient, subject, and content details",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:43.486Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "service_type": "email",
+              "provider": "gmail",
+              "credential_type": "oauth",
+              "config": {
+                "fields": [
+                  {
+                    "name": "client_id",
+                    "type": "text",
+                    "label": "Google Client ID",
+                    "required": true
+                  },
+                  {
+                    "name": "client_secret",
+                    "type": "password",
+                    "label": "Google Client Secret",
+                    "required": true
+                  },
+                  {
+                    "name": "redirect_uri",
+                    "type": "text",
+                    "label": "Redirect URI",
+                    "required": true,
+                    "default": "http://localhost:3000/auth/callback"
+                  }
+                ],
+                "auth_flow": "oauth2",
+                "scopes": [
+                  "https://www.googleapis.com/auth/gmail.send"
+                ],
+                "requires_user_input": true,
+                "complexity": "medium",
+                "estimated_time": "5-10 minutes"
+              },
+              "setup_instructions": [
+                "1. Go to Google Cloud Console (console.cloud.google.com)",
+                "2. Create a new project or select existing one",
+                "3. Enable Gmail API",
+                "4. Go to 'Credentials' and create OAuth 2.0 client ID",
+                "5. Add redirect URI: http://localhost:3000/auth/callback",
+                "6. Copy Client ID and Client Secret",
+                "7. Complete OAuth flow when prompted"
+              ],
+              "security_note": "Credentials will be securely stored and encrypted",
+              "next_steps": [
+                "1. Enter your credentials in the form below",
+                "2. Test the connection to verify setup",
+                "3. Save the integration for future use",
+                "4. Start using the integration in your workflows"
+              ]
+            },
+            "metadata": {
+              "requires_user_input": true,
+              "setup_complexity": "medium",
+              "estimated_time": "5-10 minutes"
+            },
+            "step_description": "Set up Gmail authentication and collect necessary credentials",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:43.486Z",
+            "integration_used": {
+              "action_type": "collect_credentials",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "success"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 2,
+            "action_name": "collect_credentials",
+            "function_name": "collect_credentials"
+          },
+          {
+            "success": true,
+            "data": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "status": "completed",
+              "result": {
+                "provider": "Gmail API",
+                "status": "sent",
+                "message_id": "gmail_1765896943486",
+                "to": "samrat@gmail.com",
+                "subject": "Automated Message from NodeLess AI",
+                "sent_at": "2025-12-16T14:55:43.486Z",
+                "note": "Email sent via Gmail API (requires OAuth setup)"
+              },
+              "executed_at": "2025-12-16T14:55:43.486Z"
+            },
+            "metadata": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "execution_time": 1765896943486
+            },
+            "step_description": "Send the actual email using Gmail integration",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:43.486Z",
+            "integration_used": {
+              "action_type": "execute_action",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "completed"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 3,
+            "action_name": "execute_action",
+            "function_name": "execute_action"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:55:43.486Z",
+              "result": {
+                "content": {
+                  "action_type": "send_email",
+                  "service_provider": "gmail",
+                  "status": "completed",
+                  "result": {
+                    "provider": "Gmail API",
+                    "status": "sent",
+                    "message_id": "gmail_1765896943486",
+                    "to": "samrat@gmail.com",
+                    "subject": "Automated Message from NodeLess AI",
+                    "sent_at": "2025-12-16T14:55:43.486Z",
+                    "note": "Email sent via Gmail API (requires OAuth setup)"
+                  },
+                  "executed_at": "2025-12-16T14:55:43.486Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 466,
+                "workflow_type": "email"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:55:43.486Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Confirm email delivery and provide status report",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:55:43.486Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T14:55:43.486Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "email_request",
+            "analysis_depth": "detailed"
+          },
+          "description": "Analyze the email request and extract recipient, subject, and content details"
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "email",
+            "provider": "gmail",
+            "credential_type": "oauth"
+          },
+          "description": "Set up Gmail authentication and collect necessary credentials"
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "send_email",
+            "service_provider": "gmail",
+            "action_data": {
+              "to": "samrat@gmail.com",
+              "subject": "Automated Message from NodeLess AI",
+              "body": "This is an automated message sent by NodeLess AI.",
+              "from": "noreply@nodelessai.com"
+            }
+          },
+          "description": "Send the actual email using Gmail integration"
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "delivery_method": "direct",
+            "format": "confirmation"
+          },
+          "description": "Confirm email delivery and provide status report"
+        }
+      ],
+      "created_at": "2025-12-16T14:55:43.483Z",
+      "updated_at": "2025-12-16T14:55:43.488Z"
+    },
+    {
+      "id": "mj8pidpamh31iufz9il",
+      "workflow_id": "mj8pidp64753cn3g81g",
+      "status": "completed",
+      "input": {
+        "prompt": "Send an email to samratpandeyofficial@gmail.com, so setup a work flow for that",
+        "options": {}
+      },
+      "output": {
+        "execution_id": "exec_1765897051869_strkfafko",
+        "status": "completed",
+        "workflow": {
+          "workflow": [
+            {
+              "step": 1,
+              "action": "analyze_input",
+              "params": {
+                "input_type": "text",
+                "analysis_depth": "basic"
+              },
+              "description": "Analyze the user's request to send an email."
+            },
+            {
+              "step": 2,
+              "action": "collect_credentials",
+              "params": {
+                "service_type": "email",
+                "provider": "gmail",
+                "credential_type": "oauth"
+              },
+              "description": "Collect OAuth credentials for Gmail to send the email securely."
+            },
+            {
+              "step": 3,
+              "action": "execute_action",
+              "params": {
+                "action_type": "send_email",
+                "service_provider": "gmail",
+                "action_data": {
+                  "to": "samratpandeyofficial@gmail.com",
+                  "subject": "Automated Email from NodeLess AI",
+                  "body": "This is an automated email sent via NodeLess AI. Please let me know if you received this."
+                },
+                "credentials": "${steps.2.credentials}"
+              },
+              "description": "Send the email to the specified recipient using the collected Gmail credentials."
+            },
+            {
+              "step": 4,
+              "action": "send_output",
+              "params": {
+                "output_data": "Email to samratpandeyofficial@gmail.com has been scheduled for sending.",
+                "output_type": "confirmation"
+              },
+              "description": "Confirm to the user that the email has been processed and is being sent."
+            }
+          ],
+          "estimated_time": 3,
+          "complexity": "low",
+          "id": "mj8pidp64753cn3g81g"
+        },
+        "results": [
+          {
+            "success": true,
+            "data": {
+              "input_type": "text",
+              "content_length": 78,
+              "complexity": "basic",
+              "focus_area": "general",
+              "key_elements": [
+                "communication"
+              ],
+              "requirements": {
+                "format": "email"
+              }
+            },
+            "metadata": {
+              "processed_at": "2025-12-16T14:57:31.872Z",
+              "duration_ms": 547
+            },
+            "step_description": "Analyze the user's request to send an email.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:57:31.872Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 1,
+            "action_name": "analyze_input",
+            "function_name": "analyze_input"
+          },
+          {
+            "success": true,
+            "data": {
+              "service_type": "email",
+              "provider": "gmail",
+              "credential_type": "oauth",
+              "config": {
+                "fields": [
+                  {
+                    "name": "client_id",
+                    "type": "text",
+                    "label": "Google Client ID",
+                    "required": true
+                  },
+                  {
+                    "name": "client_secret",
+                    "type": "password",
+                    "label": "Google Client Secret",
+                    "required": true
+                  },
+                  {
+                    "name": "redirect_uri",
+                    "type": "text",
+                    "label": "Redirect URI",
+                    "required": true,
+                    "default": "http://localhost:3000/auth/callback"
+                  }
+                ],
+                "auth_flow": "oauth2",
+                "scopes": [
+                  "https://www.googleapis.com/auth/gmail.send"
+                ],
+                "requires_user_input": true,
+                "complexity": "medium",
+                "estimated_time": "5-10 minutes"
+              },
+              "setup_instructions": [
+                "1. Go to Google Cloud Console (console.cloud.google.com)",
+                "2. Create a new project or select existing one",
+                "3. Enable Gmail API",
+                "4. Go to 'Credentials' and create OAuth 2.0 client ID",
+                "5. Add redirect URI: http://localhost:3000/auth/callback",
+                "6. Copy Client ID and Client Secret",
+                "7. Complete OAuth flow when prompted"
+              ],
+              "security_note": "Credentials will be securely stored and encrypted",
+              "next_steps": [
+                "1. Enter your credentials in the form below",
+                "2. Test the connection to verify setup",
+                "3. Save the integration for future use",
+                "4. Start using the integration in your workflows"
+              ]
+            },
+            "metadata": {
+              "requires_user_input": true,
+              "setup_complexity": "medium",
+              "estimated_time": "5-10 minutes"
+            },
+            "step_description": "Collect OAuth credentials for Gmail to send the email securely.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:57:31.873Z",
+            "integration_used": {
+              "action_type": "collect_credentials",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "success"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 2,
+            "action_name": "collect_credentials",
+            "function_name": "collect_credentials"
+          },
+          {
+            "success": true,
+            "data": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "status": "completed",
+              "result": {
+                "provider": "Gmail API",
+                "status": "sent",
+                "message_id": "gmail_1765897051873",
+                "to": "samratpandeyofficial@gmail.com",
+                "subject": "Automated Email from NodeLess AI",
+                "sent_at": "2025-12-16T14:57:31.873Z",
+                "note": "Email sent via Gmail API (requires OAuth setup)"
+              },
+              "executed_at": "2025-12-16T14:57:31.873Z"
+            },
+            "metadata": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "execution_time": 1765897051873
+            },
+            "step_description": "Send the email to the specified recipient using the collected Gmail credentials.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:57:31.873Z",
+            "integration_used": {
+              "action_type": "execute_action",
+              "provider": "gmail",
+              "integration_id": null,
+              "status": "completed"
+            },
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 3,
+            "action_name": "execute_action",
+            "function_name": "execute_action"
+          },
+          {
+            "success": true,
+            "data": {
+              "status": "completed",
+              "delivery_method": "direct",
+              "timestamp": "2025-12-16T14:57:31.873Z",
+              "result": {
+                "content": {
+                  "action_type": "send_email",
+                  "service_provider": "gmail",
+                  "status": "completed",
+                  "result": {
+                    "provider": "Gmail API",
+                    "status": "sent",
+                    "message_id": "gmail_1765897051873",
+                    "to": "samratpandeyofficial@gmail.com",
+                    "subject": "Automated Email from NodeLess AI",
+                    "sent_at": "2025-12-16T14:57:31.873Z",
+                    "note": "Email sent via Gmail API (requires OAuth setup)"
+                  },
+                  "executed_at": "2025-12-16T14:57:31.873Z"
+                },
+                "format": "standard"
+              },
+              "workflow_summary": {
+                "total_steps": 3,
+                "successful_steps": 3,
+                "total_time_ms": 547,
+                "workflow_type": "email"
+              }
+            },
+            "metadata": {
+              "delivered_at": "2025-12-16T14:57:31.873Z",
+              "delivery_method": "direct",
+              "final_step": true
+            },
+            "step_description": "Confirm to the user that the email has been processed and is being sent.",
+            "execution_time": 0,
+            "completed_at": "2025-12-16T14:57:31.873Z",
+            "integration_used": null,
+            "metrics": {
+              "execution_time_ms": 0,
+              "success": true,
+              "retry_count": 0
+            },
+            "step_number": 4,
+            "action_name": "send_output",
+            "function_name": "send_output"
+          }
+        ],
+        "execution_time": 1,
+        "completed_at": "2025-12-16T14:57:31.873Z",
+        "success": true
+      },
+      "execution_time": 1,
+      "steps": [
+        {
+          "step": 1,
+          "action": "analyze_input",
+          "params": {
+            "input_type": "text",
+            "analysis_depth": "basic"
+          },
+          "description": "Analyze the user's request to send an email."
+        },
+        {
+          "step": 2,
+          "action": "collect_credentials",
+          "params": {
+            "service_type": "email",
+            "provider": "gmail",
+            "credential_type": "oauth"
+          },
+          "description": "Collect OAuth credentials for Gmail to send the email securely."
+        },
+        {
+          "step": 3,
+          "action": "execute_action",
+          "params": {
+            "action_type": "send_email",
+            "service_provider": "gmail",
+            "action_data": {
+              "to": "samratpandeyofficial@gmail.com",
+              "subject": "Automated Email from NodeLess AI",
+              "body": "This is an automated email sent via NodeLess AI. Please let me know if you received this."
+            },
+            "credentials": "${steps.2.credentials}"
+          },
+          "description": "Send the email to the specified recipient using the collected Gmail credentials."
+        },
+        {
+          "step": 4,
+          "action": "send_output",
+          "params": {
+            "output_data": "Email to samratpandeyofficial@gmail.com has been scheduled for sending.",
+            "output_type": "confirmation"
+          },
+          "description": "Confirm to the user that the email has been processed and is being sent."
+        }
+      ],
+      "created_at": "2025-12-16T14:57:31.870Z",
+      "updated_at": "2025-12-16T14:57:31.875Z"
+    }
+  ],
+  "cache": {
+    "1b2040104798894a47a211f6fe494dfc82fad33de0df2b4abda37da4cf274add": {
+      "response": {
+        "workflow": [
+          {
+            "step": 1,
+            "action": "analyze_input",
+            "params": {
+              "input_type": "text",
+              "analysis_depth": "detailed"
+            },
+            "description": "Understand the user's specific requirements for the email (topic, tone, recipient, purpose, key points)."
+          },
+          {
+            "step": 2,
+            "action": "generate_content",
+            "params": {
+              "content_type": "email",
+              "style": "professional",
+              "length": "medium"
+            },
+            "description": "Generate the email draft based on the analyzed user input."
+          },
+          {
+            "step": 3,
+            "action": "format_output",
+            "params": {
+              "format_type": "email_structure",
+              "template_name": "standard_email"
+            },
+            "description": "Format the generated email with proper subject line, salutation, body, and closing."
+          },
+          {
+            "step": 4,
+            "action": "send_output",
+            "params": {
+              "output_type": "text",
+              "delivery_method": "display_to_user"
+            },
+            "description": "Deliver the formatted email draft to the user."
+          }
+        ],
+        "estimated_time": 60,
+        "complexity": "medium"
+      },
+      "created_at": "2025-12-16T14:16:04.865Z",
+      "expires_at": "2025-12-17T14:16:04.865Z"
+    },
+    "257bbd30ec0866420ac75f422060a65c216d747af95c0efbbe0f2792504eb8ec": {
+      "response": {
+        "workflow": [
+          {
+            "step": 1,
+            "action": "analyze_input",
+            "params": {
+              "input_type": "text",
+              "analysis_depth": "basic"
+            },
+            "description": "Understand the user's request to write an email for school leave."
+          },
+          {
+            "step": 2,
+            "action": "generate_content",
+            "params": {
+              "content_type": "email",
+              "topic": "request for leave from school",
+              "tone": "formal"
+            },
+            "description": "Create a formal email requesting leave from school."
+          },
+          {
+            "step": 3,
+            "action": "format_output",
+            "params": {
+              "format_type": "email",
+              "structure": "standard_email_format"
+            },
+            "description": "Structure the generated email into a standard email format."
+          },
+          {
+            "step": 4,
+            "action": "send_output",
+            "params": {
+              "output_type": "email_draft"
+            },
+            "description": "Deliver the formatted email draft to the user."
+          }
+        ],
+        "estimated_time": 30,
+        "complexity": "low"
+      },
+      "created_at": "2025-12-16T14:17:39.192Z",
+      "expires_at": "2025-12-17T14:17:39.192Z"
+    },
+    "42d7fe081381ab0c6d6f709496f96c691f4dcb750a0815410e4107746fa7408b": {
+      "response": {
+        "workflow": [
+          {
+            "step": 1,
+            "action": "analyze_input",
+            "params": {
+              "input_type": "text",
+              "analysis_depth": "basic"
+            },
+            "description": "Understand the request to write an email for leave."
+          },
+          {
+            "step": 2,
+            "action": "generate_content",
+            "params": {
+              "content_type": "email",
+              "tone": "formal",
+              "topic": "school leave for sickness"
+            },
+            "description": "Generate the draft email for school leave due to sickness."
+          },
+          {
+            "step": 3,
+            "action": "format_output",
+            "params": {
+              "format_type": "text",
+              "style": "email"
+            },
+            "description": "Format the generated content as a readable email."
+          },
+          {
+            "step": 4,
+            "action": "send_output",
+            "params": {
+              "output_type": "text"
+            },
+            "description": "Deliver the formatted email to the user."
+          }
+        ],
+        "estimated_time": 20,
+        "complexity": "low"
+      },
+      "created_at": "2025-12-16T14:18:47.776Z",
+      "expires_at": "2025-12-17T14:18:47.776Z"
+    },
+    "106e12878e77be28296e6f59f5e4cec4f6a5e8688a7cefbfc68b9e47647f83ab": {
+      "response": {
+        "workflow": [
+          {
+            "step": 1,
+            "action": "analyze_input",
+            "params": {
+              "input_type": "text",
+              "analysis_depth": "basic"
+            },
+            "description": "Understand the request to create a to-do list for making an omelet."
+          },
+          {
+            "step": 2,
+            "action": "generate_content",
+            "params": {
+              "content_type": "list",
+              "topic": "steps to make an omelet",
+              "style": "instructional"
+            },
+            "description": "Generate the step-by-step to-do list for making an omelet."
+          },
+          {
+            "step": 3,
+            "action": "format_output",
+            "params": {
+              "format": "bulleted_list",
+              "style": "clear_and_concise"
+            },
+            "description": "Format the generated omelet steps into a clear to-do list."
+          },
+          {
+            "step": 4,
+            "action": "send_output",
+            "params": {
+              "output_type": "text",
+              "destination": "user"
+            },
+            "description": "Deliver the formatted to-do list for making an omelet to the user."
+          }
+        ],
+        "estimated_time": 20,
+        "complexity": "low"
+      },
+      "created_at": "2025-12-16T14:19:49.007Z",
+      "expires_at": "2025-12-17T14:19:49.007Z"
+    },
+    "f6ebdb4800319c3cf3a4251b75d10f4f58fc1dcc0ba90e6fd80eb1a4d3b8d5b1": {
+      "response": {
+        "workflow": [
+          {
+            "step": 1,
+            "action": "analyze_input",
+            "params": {
+              "input_type": "text",
+              "analysis_depth": "basic"
+            },
+            "description": "Analyze the user's request to send an email."
+          },
+          {
+            "step": 2,
+            "action": "collect_credentials",
+            "params": {
+              "service_type": "email",
+              "provider": "gmail",
+              "credential_type": "oauth"
+            },
+            "description": "Collect OAuth credentials for Gmail to send the email securely."
+          },
+          {
+            "step": 3,
+            "action": "execute_action",
+            "params": {
+              "action_type": "send_email",
+              "service_provider": "gmail",
+              "action_data": {
+                "to": "samratpandeyofficial@gmail.com",
+                "subject": "Automated Email from NodeLess AI",
+                "body": "This is an automated email sent via NodeLess AI. Please let me know if you received this."
+              },
+              "credentials": "${steps.2.credentials}"
+            },
+            "description": "Send the email to the specified recipient using the collected Gmail credentials."
+          },
+          {
+            "step": 4,
+            "action": "send_output",
+            "params": {
+              "output_data": "Email to samratpandeyofficial@gmail.com has been scheduled for sending.",
+              "output_type": "confirmation"
+            },
+            "description": "Confirm to the user that the email has been processed and is being sent."
+          }
+        ],
+        "estimated_time": 3,
+        "complexity": "low"
+      },
+      "created_at": "2025-12-16T14:57:31.860Z",
+      "expires_at": "2025-12-17T14:57:31.860Z"
+    }
+  }
 }
